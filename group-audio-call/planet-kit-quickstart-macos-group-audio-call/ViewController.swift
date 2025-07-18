@@ -70,7 +70,9 @@ class ViewController: NSViewController {
 
 extension ViewController: PlanetKitConferenceDelegate {
     func didConnect(_ conference: PlanetKitConference, connected param: PlanetKitConferenceConnectedParam) {
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            guard let `self` = self else { return }
+            
             self.state = "connected"
             self.participantCount = 1
             
@@ -79,7 +81,9 @@ extension ViewController: PlanetKitConferenceDelegate {
     }
     
     func didDisconnect(_ conference: PlanetKitConference, disconnected param: PlanetKitDisconnectedParam) {
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            guard let `self` = self else { return }
+            
             self.state = "disconnected"
             self.participantCount = 0
             
@@ -88,7 +92,9 @@ extension ViewController: PlanetKitConferenceDelegate {
     }
     
     func peerListDidUpdate(_ conference: PlanetKitConference, updated param: PlanetKitConferencePeerListUpdateParam) {
-        DispatchQueue.main.async {
+        DispatchQueue.main.async { [weak self] in
+            guard let `self` = self else { return }
+            
             // Add peer count include me
             self.participantCount = param.totalPeersCount + 1
         }

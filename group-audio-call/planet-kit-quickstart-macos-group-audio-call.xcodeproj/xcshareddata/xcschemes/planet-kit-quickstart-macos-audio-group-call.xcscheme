@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1520"
+   LastUpgradeVersion = "1620"
    version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -15,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CE12951D2B7DFFAA00AC7FAF"
-               BuildableName = "planet-kit-quickstart-macos.app"
-               BlueprintName = "planet-kit-quickstart-macos"
-               ReferencedContainer = "container:planet-kit-quickstart-macos.xcodeproj">
+               BuildableName = "planet-kit-quickstart-macos-group-audio-call.app"
+               BlueprintName = "planet-kit-quickstart-macos-group-audio-call"
+               ReferencedContainer = "container:planet-kit-quickstart-macos-group-audio-call.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE12951D2B7DFFAA00AC7FAF"
-            BuildableName = "planet-kit-quickstart-macos.app"
-            BlueprintName = "planet-kit-quickstart-macos"
-            ReferencedContainer = "container:planet-kit-quickstart-macos.xcodeproj">
+            BuildableName = "planet-kit-quickstart-macos-group-audio-call.app"
+            BlueprintName = "planet-kit-quickstart-macos-group-audio-call"
+            ReferencedContainer = "container:planet-kit-quickstart-macos-group-audio-call.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -61,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CE12951D2B7DFFAA00AC7FAF"
-            BuildableName = "planet-kit-quickstart-macos.app"
-            BlueprintName = "planet-kit-quickstart-macos"
-            ReferencedContainer = "container:planet-kit-quickstart-macos.xcodeproj">
+            BuildableName = "planet-kit-quickstart-macos-group-audio-call.app"
+            BlueprintName = "planet-kit-quickstart-macos-group-audio-call"
+            ReferencedContainer = "container:planet-kit-quickstart-macos-group-audio-call.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
